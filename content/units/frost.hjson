@@ -8,7 +8,8 @@ health: 150
 engineOffset: 5.5
 range: 140
 armor: 1
-weapons: [
+weapons: 
+[
   {
     name: none
     y: 0
@@ -16,7 +17,8 @@ weapons: [
     reload: 12
     ejectEffect: casing1
     shootSound: shoot
-    bullet: {
+    bullet: 
+    {
       speed: 2
       damage: 10
       width: 7
@@ -28,7 +30,8 @@ weapons: [
       incendSpread: 2
       frontColor: 0000ff
       backColor: add8e6
-      status: freezing, burning
-}
-}]
+      status: freezing
+    }
+  }
+]
 research: air-factory
