@@ -8,7 +8,28 @@ health: 200
 engineOffset: 5.5
 range: 140
 armor: 4
-weapons: [{}]
+weapons: [
+    {
+    name: none
+    y: 0
+    x: 0
+    reload: 12
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+        type: BombBulletType
+        collidesTiles: false
+        collides: false
+        bulletShrink: 0.7
+        lifetime: 30
+        drag: 0.05
+        keepVelocity: false
+        collidesAir: false
+        hitSound: explosion
+        status: freezing, burning
+    }
+}]
+
 research: {
     parent: glacierT1
 }

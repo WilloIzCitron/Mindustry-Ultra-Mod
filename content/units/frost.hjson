@@ -28,7 +28,7 @@ weapons: [
       incendSpread: 2
       frontColor: 0000ff
       backColor: add8e6
-      status: freezing
+      status: freezing, burning
     }
   }
 ]
