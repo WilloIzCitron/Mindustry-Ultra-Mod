@@ -1,5 +1,5 @@
 type: MinerUnit
-speed: 2.75
+speed: 0.12
 accel: 0.08
 flying: true
 drag: 0.01
@@ -31,4 +31,4 @@ weapons: [
     }
   }
 ]
-research: heavy-factory
+research: air-factory
