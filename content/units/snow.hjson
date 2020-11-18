@@ -15,7 +15,7 @@ weapons:
     x: 0
     reload: 12
     ejectEffect: none
-    shootSound: shoot
+    shootSound: none
     bullet: 
     {
         type: BombBulletType
@@ -27,6 +27,8 @@ weapons:
         bulletShrink: 0.7
         lifetime: 30
         drag: 0.05
+        frontColor: 0000ff
+        backColor: add8e6
         keepVelocity: false
         collidesAir: false
         hitSound: explosion
