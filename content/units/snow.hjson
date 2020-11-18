@@ -20,8 +20,9 @@ weapons:
     {
         type: BombBulletType
         damage: 20
+        radius: 8
         width: 8
-        height: 3
+        height: 4
         collidesTiles: false
         collides: false
         bulletShrink: 0.7
