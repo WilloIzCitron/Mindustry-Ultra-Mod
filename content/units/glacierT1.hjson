@@ -1,5 +1,6 @@
-type: FlyingUnit
-speed: 0.12
+type: UnitEntity 
+localizedName: Snow
+speed: 1.50
 accel: 0.08
 flying: true
 drag: 0.01
@@ -25,9 +26,9 @@ weapons: [
       smokeEffect: shootSmallSmoke
       incendAmount: 1
       incendSpread: 2
-      frontColor: f8ad42
-      backColor: f68021
-      status: burning
+      frontColor: 0000ff
+      backColor: add8e6
+      status: freezing
     }
   }
 ]
