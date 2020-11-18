@@ -27,7 +27,7 @@ weapons: [
         collidesAir: false
         hitSound: explosion
         status: freezing, burning
-    }
+}
 }]
 
 research: {

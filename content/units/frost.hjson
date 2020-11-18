@@ -29,7 +29,6 @@ weapons: [
       frontColor: 0000ff
       backColor: add8e6
       status: freezing, burning
-    }
-  }
-]
+}
+}]
 research: air-factory
