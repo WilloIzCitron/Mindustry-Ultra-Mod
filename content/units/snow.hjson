@@ -1,5 +1,5 @@
 type: UnitEntity
-localizedName: snow
+localizedName: Snow
 speed: 1.00
 accel: 0.08
 flying: true
@@ -19,6 +19,9 @@ weapons:
     bullet: 
     {
         type: BombBulletType
+        damage: 20
+        width: 8
+        height: 3
         collidesTiles: false
         collides: false
         bulletShrink: 0.7
