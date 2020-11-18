@@ -1,0 +1,43 @@
+type: Reconstructor
+
+health: 500
+size: 5
+itemCapacity: 30
+liquidCapacity: 50
+constructTime: 300
+
+requirements: [
+    lead/1400
+    silicon/1000
+    titanium/700
+    thorium/1400
+    spore-pod/240
+]
+
+upgrades: [
+    [sporedmace, sporedfortress],
+    [sporedhorizon, sporedzenith]
+]
+alwaysUnlocked: true
+consumes: {
+    items: {
+        items: [
+            {
+                item: titanium
+                amount: 190
+            },
+            {
+                item: spore-pod
+                amount: 50
+            },
+            silicon/250
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.5
+    }
+    power: 6
+}
+category: units
+research: spored-additive-reconstructor

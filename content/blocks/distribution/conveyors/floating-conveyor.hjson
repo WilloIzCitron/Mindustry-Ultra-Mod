@@ -1,0 +1,20 @@
+type: Conveyor
+
+health: 250
+hasItems: true
+itemCapacity: 4
+speed: 0.06
+displayedSpeed: 9
+displayFlow: true
+
+requirements: [
+  copper/3
+  graphite/2
+  metaglass/1
+]
+
+requiresWater: true
+placeableLiquid: true
+
+category: distribution
+research: titanium-conveyor

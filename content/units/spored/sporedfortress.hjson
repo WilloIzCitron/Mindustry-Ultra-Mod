@@ -1,0 +1,54 @@
+type: MechUnit
+speed: 0.4
+health: 550
+range: 80
+rotateSpeed: 2.7
+weapons: [
+    {
+        name: spored-small-gun1
+        reload: 10
+        x: 9
+        y: 2
+        top: false
+        shots: 4
+        spacing: 3
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 14
+            speed: 3
+            width: 6
+            height: 16
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 5
+            lifetime: 60
+            sprite: bullet
+        }
+    },
+    {
+        name: spored-small-gun1
+        reload: 15
+        x: 7
+        y: 1
+        top: false
+        shots: 4
+        spacing: 3
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 14
+            speed: 3
+            width: 6
+            height: 16
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 5
+            lifetime: 60
+            sprite: bullet
+        }
+    }
+]
+research: spored-multiplicative-reconstructor

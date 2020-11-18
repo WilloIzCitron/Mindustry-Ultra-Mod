@@ -1,0 +1,37 @@
+type: Reconstructor
+
+health: 500
+size: 3
+itemCapacity: 20
+constructTime: 700
+
+requirements: [
+    copper/320
+    lead/240
+    silicon/180
+]
+
+upgrades: [
+    [heavydagger, heavymace],
+    [heavyflare, heavyhorizon]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: lead
+                amount: 40
+            },
+            {
+                item: graphite
+                amount: 40
+            },
+            silicon/30
+        ]
+    }
+    power: 2.5
+}
+
+category: units
+research: heavy-factory

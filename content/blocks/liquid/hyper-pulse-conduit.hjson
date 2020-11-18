@@ -1,0 +1,15 @@
+type: Conduit
+
+liquidCapacity: 25
+liquidPressure: 1.25
+health: 150
+displayFlow: true
+
+requirements: [
+    titanium/4
+    metaglass/2
+    lead/2
+]
+
+category: liquid
+research: pulse-conduit

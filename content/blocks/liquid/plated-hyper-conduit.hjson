@@ -1,0 +1,16 @@
+type: Conduit
+
+liquidCapacity: 25
+liquidPressure: 1.25
+health: 300
+displayFlow: true
+
+requirements: [
+    titanium/4
+    metaglass/2
+    thorium/3
+    plastanium/2
+]
+
+category: liquid
+research: plated-conduit

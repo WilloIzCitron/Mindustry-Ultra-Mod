@@ -1,0 +1,134 @@
+type: BuilderMinerPayloadUnit
+mineTier: 5
+speed: 0.4
+health: 45000
+armor: 20
+accel: 0.05
+drag: 0.045
+lowAltitude: true
+flying: true
+engineOffset: 4
+rotateShooting: flase
+hitSize: 48
+engineSize: 7.5
+payloadCapacity: 1000
+buildSpeed: 5
+destructibleWreck: false
+
+weapons: [
+    {
+        name: testlaserr
+        mirror: false
+        top: false
+        shake: 4
+        shootY: 20
+        x: 0
+        y: 5
+
+        firstShotDelay: 99
+
+        reload: 320
+        recoil: 0
+        shootSound: laser
+        continuous: true
+        cooldownTime: 200
+
+        bullet: {
+            type: ContinuousLaserBulletType
+            length: 150
+            hitEffect: hitMeltHeal
+            drawSize: 420
+            lifetime: 160
+            shake: 1
+            despawnEffect: smokeCloud
+            smokeEffect: none
+
+            shootEffect: greenLaserChargeSmall
+
+            incendChance: 0.05
+            incendSpread: 5
+            incendAmount: 1
+        }
+
+        shootStatus: slow
+        shootStatusDuration: 180
+    },
+    {
+        name: testrailgun2
+        x: 15
+        y: 0
+        reload: 110
+        rotate: true
+        rotateSpeed: 1.4
+        shootY: 15
+        recoil: 12
+        shake: 10
+        occlusion: 50
+        cooldownTime: 30
+        mirror: true
+        bullet: {
+            type: RailBulletType
+            damage: 2000
+            speed: 50
+            lifetime: 6
+            hitShake: 6
+            hitColor: 98ffa9
+            hitEffect: healWave
+            shootEffect: massiveExplosion
+            smokeEffect: smokeCloud
+            despawnEffect: greenBomb
+
+            splashDamageRadius: 40
+            splashDamage: 500
+
+            fragBullets: 10
+            fragLifeMin: 0.3
+            fragVelocityMin: 0.1
+            fragVelocityMax: 0.6
+            fragBullet: {
+                type: BasicBulletType
+                sprite: large-bomb
+                width: 30
+                height: 30
+
+                range: 30
+                backColor: 98ffa9
+                frontColor: ffffff
+                mixColorTo: ffffff
+                despawnShake: 4
+                collidesAir: false
+                lifetime: 80
+                despawnEffect: greenBomb
+                hitEffect: massiveExplosion
+                keepVelocity: false
+                spin: 2
+                shrinkX: 0.7
+                shrinkY: 0.7
+                speed: 3.5
+                collides: false
+                splashDamage: 240
+                splashDamageRadius: 115
+
+            }
+        }
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

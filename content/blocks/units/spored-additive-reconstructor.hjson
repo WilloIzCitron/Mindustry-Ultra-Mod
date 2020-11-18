@@ -1,0 +1,36 @@
+type: Reconstructor
+
+health: 500
+size: 3
+itemCapacity: 20
+constructTime: 800
+
+requirements: [
+    copper/320
+    lead/240
+    silicon/180
+]
+
+upgrades: [
+    [sporeddagger, sporedmace],
+    [sporedflare, sporedhorizon]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: lead
+                amount: 45
+            },
+            {
+                item: spore-pod
+                amount: 20
+            },
+            silicon/35
+        ]
+    }
+    power: 2
+}
+category: units
+research: spored-factory

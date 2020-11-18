@@ -1,0 +1,24 @@
+type: LogicDisplay
+
+requirements: [
+  silicon/10
+  titanium/15
+  lead/30
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: activation-matter
+                amount: 10
+            }
+        ]
+    }
+}
+displaySize: 256
+size: 8
+health: 400
+
+category: logic
+research: large-logic-display

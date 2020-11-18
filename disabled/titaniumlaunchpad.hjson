@@ -1,0 +1,21 @@
+type: LaunchPad
+
+size: 5
+itemCapacity: 500
+hasPower: true
+
+requirements: [
+    titanium/500
+    silicon/300
+    lead/500
+    plastanium/160
+    graphite/350
+]
+
+consumes: {
+    power: 10
+}
+
+lightColor: 87ceeb
+buildVisibility: hidden
+category: effect

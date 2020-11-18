@@ -1,0 +1,84 @@
+block.testmod-titaniumlaunchpad.name = titanium launchpad
+
+block.testmod-floating-mine.name = floating mine
+block.testmod-impact-projector.name = impact projector
+block.testmod-overdriver.name = overdriver
+block.testmod-mend-dome.name = mend dome
+
+block.testmod-blocks-loader.name = block loader
+block.testmod-blocks-unloader.name = block unloader
+block.testmod-hyper-driver.name = hyper driver
+block.testmod-impact-driver.name = impact driver
+block.testmod-floating-conveyor.name = floating conveyor
+block.testmod-impact-conveyor.name = impact conveyor
+block.testmod-iron-conveyor.name = iron conveyor
+block.testmod-titanium-payload-conveyor.name = titanium payload conveyor
+block.testmod-titanium-payload-router.name = titanium payload router
+
+block.testmod-slag-extractor.name = slag extractor
+block.testmod-cryofluid-extractor.name = cryofluid extractor
+block.testmod-titanium-drill.name = titanium drill
+
+
+block.testmod-hyper-pulse-conduit.name = hyper pulse conduit
+block.testmod-plated-hyper-conduit.name = plated hyper conduit
+block.testmod-power-pump.name = power pump
+
+block.testmod-message-bank.name = message bank
+block.testmod-power-processor.name = power processor
+block.testmod-pressed-memory-cell.name = pressed memory cell
+block.testmod-testdisplay.name = test display
+
+block.testmod-blocks-forge.name = block forge
+block.testmod-atmospheric-cooler.name = atmospheric cooler
+block.testmod-activationmatter-weaver.name = activationmatter weaver
+block.testmod-multi-blast-mixer.name = multi blast mixer
+block.testmod-multi-pyratite-mixer.name = multi pyratite mixer
+block.testmod-multi-cultivator.name = multi cultivator
+block.testmod-always-source.name = always source
+
+block.testmod-core-valut.name = cored valut
+block.testmod-titanium-unloader.name = titanium unloader
+
+block.testmod-electric-factory.name =  electric factory
+block.testmod-electric-additive-reconstructor.name = electric T2 reconstructor
+block.testmod-electric-multiplicative-reconstructor.name = electric T3 reconstructor
+block.testmod-heavy-factory.name =  heavy factory
+block.testmod-heavy-additive-reconstructor.name = heavy T2 reconstructor
+block.testmod-heavy-multiplicative-reconstructor.name = heavy T3 reconstructor
+block.testmod-spored-factory.name = spored factory
+block.testmod-spored-additive-reconstructor.name = spored T2 reconstructor
+block.testmod-spored-multiplicative-reconstructor.name = spored T3 reconstructor
+
+block.testmod-iron-wall.name = iron wall
+block.testmod-iron-wall-large.name = large iron wall
+
+item.testmod-iron.name = iron
+item.testmod-activation-matter.name = activation matter
+
+unit.testmod-electricdagger.name = electric dagger
+unit.testmod-electricmace.name = electric mace
+unit.testmod-electricfortress.name = electric fortress
+unit.testmod-heavydagger.name = heavy dagger
+unit.testmod-heavymace.name = heavy mace
+unit.testmod-heavyfortress.name = heavy fortress
+unit.testmod-sporeddagger.name = spored dagger
+unit.testmod-sporedmace.name = spored mace
+unit.testmod-sporedfortress.name = spored fortress
+unit.testmod-electricflare.name = electric flare
+unit.testmod-electrichorizon.name = electric horizon
+unit.testmod-electriczenith.name = electric zenith
+unit.testmod-heavyflare.name = heavy flare
+unit.testmod-heavyhorizon.name = heavy horizon
+unit.testmod-heavyzenith.name = heavy zenith
+unit.testmod-sporedflare.name = spored flare
+unit.testmod-sporedhorizon.name = spored horizon
+unit.testmod-sporedzenith.name = spored zenith
+
+block.title = block
+block.cliff = cliff
+block.floor = floor
+
+block.mod.title = modded block
+block.mod.ironWall = iron wall
+block.mod.multicultivator = multi cultivator

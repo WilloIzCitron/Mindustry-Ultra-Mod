@@ -1,0 +1,14 @@
+type: PayloadConveyor
+
+moveTime: 120
+size: 7
+requirements: [
+        graphite/30
+        copper/50
+        titanium/20
+]
+
+canOverdrive: false
+
+category: distribution
+research: payload-conveyor

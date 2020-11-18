@@ -1,0 +1,37 @@
+type: Reconstructor
+
+health: 500
+size: 3
+itemCapacity: 50
+constructTime: 900
+
+requirements: [
+    copper/350
+    lead/260
+    silicon/200
+]
+
+upgrades: [
+    [electricdagger, electricmace],
+    [electricflare, electrichorizon]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: lead
+                amount: 50
+            },
+            {
+                item: metaglass
+                amount: 50
+            },
+            silicon/40
+        ]
+    }
+    power: 3
+}
+
+category: units
+research: electric-factory
