@@ -61,6 +61,6 @@ sprite: rain.png
 shots: 10
 spread: 10
 inaccuracy: 4
-range: 512
+range: 246
 targetsGround: true
 research: "ripple"
