@@ -1,0 +1,62 @@
+localizedName: Rain
+description: A weapon can shoot more bullet than Ripple
+
+category: turret
+size: 4
+health: 150
+recoil: 1
+targetAir: false
+type: itemTurret
+requirements: [
+    copper/400
+    titanium/160
+    graphite/300
+    thorium/130
+    surge-alloy/250
+    ]
+"ammoTypes": {
+blast-compound: {
+    bulletDamage: 20
+    type: bombBulletType
+    frontColor: ffff00
+    backColor: ff0000
+    peirce: true
+    collidesAir: false
+    shootEffect: bigShockwave
+    hitEffect: blastExplosion
+    splashDamage: 30
+    splashDamageRadius: 8
+    lifetime: 85
+    length: 230
+    speed: 10
+    fragBullets: 20
+    fragBullet: {
+        type: flakBulletType
+        damage: 10
+        speed: 2
+        lifetime: 1
+        }
+    },
+pyratite: {
+    bulletDamage: 14
+    type: bombBulletType
+    frontColor: ffff00
+    backColor: ff0000
+    peirce: true
+    collidesAir: false
+    shootEffect: bigShockwave
+    hitEffect: blastExplosion
+    splashDamage: 30
+    splashDamageRadius: 8
+    lifetime: 85
+    length: 230
+    speed: 10
+    status: burning
+}
+
+shots: 10
+spread: 10
+inaccuracy: 4
+range: 512
+targetsGround: true
+research: "ripple"
