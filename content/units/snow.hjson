@@ -19,8 +19,8 @@ weapons:
     bullet: 
     {
         type: BombBulletType
-        damage: 20
-        radius: 10
+        splashDamage: 20
+        splashDamageRadius: 8
         width: 8
         height: 6
         collidesTiles: false
