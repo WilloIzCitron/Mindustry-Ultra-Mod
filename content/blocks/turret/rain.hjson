@@ -54,6 +54,9 @@ pyratite: {
     status: burning
 }
 
+reloadTime: 20
+shootSound: boom
+sprite: rain.png
 shots: 10
 spread: 10
 inaccuracy: 4
