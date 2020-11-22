@@ -53,6 +53,7 @@ pyratite: {
     speed: 10
     status: burning
 }
+}
 
 reloadTime: 20
 shootSound: boom
