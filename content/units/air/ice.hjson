@@ -1,0 +1,38 @@
+type: UnitEntity
+localizedName: Ice
+speed: 1.30
+accel: 0.08
+flying: true
+drag: 0.01
+health: 200
+engineOffset: 5.5
+range: 140
+armor: 4
+weapons: 
+[{
+    name: none
+    y: 0
+    x: 2
+    reload: 12
+    ejectEffect: none
+    shootSound: none
+    bullet: 
+    {
+      speed: 2
+      damage: 10
+      width: 7
+      height: 9
+      lifetime: 60
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 2
+      frontColor: 0000ff
+      backColor: add8e6
+      status: freezing
+    }
+}]
+
+research: {
+    parent: frost
+}
